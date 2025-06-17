@@ -1,0 +1,150 @@
+%%%%%%
+% Ana Clara Rolim de Azevedo - Curriculum Vitae
+% Editado usando moderncv (tema classic para cabeçalho)
+%%%%%%
+
+\documentclass[11pt,a4paper]{moderncv} % Document class: moderncv, 11pt font, A4 paper
+
+
+\moderncvstyle{classic} % ALTERADO para classic para o layout do cabeçalho
+\moderncvcolor{blue} % Escolha a cor principal (blue, green, grey, orange, red, purple)
+
+% Pacotes úteis
+\usepackage[utf8]{inputenc} % Para acentuação correta
+\usepackage[T1]{fontenc}    % Para codificação de fontes
+\usepackage[portuguese]{babel} % Para hifenização e datas em português
+\usepackage[scale=0.8]{geometry} % Para ajustar as margens e escala
+\usepackage{ragged2e} % Para justificar o texto
+\usepackage{datenumber,fp} % Pacotes úteis para cálculos de data/idade
+
+% Configurações de hyperlink para links clicáveis no PDF
+\usepackage[pdftex,
+	colorlinks=true,
+	urlcolor=cyan,
+	linkcolor=cyan,
+	filecolor=cyan,
+	citecolor=cyan]{hyperref}
+
+% Personalização de largura do nome no cabeçalho (opcional, manter do Álvaro)
+\AtBeginDocument{\setlength{\maketitlenamewidth}{11.5cm}}
+\AtBeginDocument{\recomputelengths}
+
+% Informações Pessoais - Serão exibidas no cabeçalho com o estilo 'classic'
+% Se quiser uma foto, descomente e adicione o caminho (no estilo 'classic', a foto apareceria à esquerda do nome).
+% \photo[64pt][0pt]{./sua_foto.jpg} 
+\firstname{Ana Clara}
+\familyname{Rolim de Azevedo}
+% No estilo 'classic', o título "Curriculum Vitae" é gerado automaticamente pelo \maketitle
+\address{Rua do Bicame, 573, Bairro Bicame}{Diamantina - MG}
+\mobile{\href{https://api.whatsapp.com/send?phone=5533987650207} {+55 (33) 9 8765-0207}} % Seu número de celular com link para WhatsApp
+\email{anaclaraazevedo0412@gmail.com}
+
+
+
+
+% --------------------------------------
+% CONTEÚDO
+% --------------------------------------
+
+\begin{document}
+\maketitle % Gera o cabeçalho do currículo com as informações pessoais à direita
+
+
+\section{Sobre}
+\begin{tabular}{@{}lll} % Três colunas, todas alinhadas à esquerda
+    \textbf{Idade:} & 21 anos & \\
+    \textbf{Estado Civil: } & Solteira & \\
+    \textbf{Filhos:} & Não & \\
+\end{tabular}
+
+\section{Perfis Online}
+\begin{tabular}{@{}lll}
+    \textbf{GitHub:} & \hspace{0.75cm}\href{https://github.com/AnaClaraR12}{AnaClaraR12} & \\
+    \textbf{LinkedIn:} & \hspace{0.75cm}\href{https://www.linkedin.com/in/ana-clara-rolim-de-azevedo-450789334}{Ana Clara Rolim de Azevedo} & \\
+\end{tabular}
+\section{Objetivo}
+\justify Estudante de Sistemas de Informação na UFVJM, com interesse especial em ciência de dados e análise de dados. Possuo conhecimentos em SQL, Power BI, Python e Excel. Busco uma posição de estágio para contribuir em projetos orientados por dados e aprofundar meus conhecimentos na área, aplicando minhas competências em um ambiente de aprendizado e desenvolvimento contínuo.
+
+
+\section{Formação Acadêmica}
+\cventry{Janeiro 2023 -- Prev. Julho 2027}{Bacharelado em Sistemas de Informação}{}{Universidade Federal dos Vales do Jequitinhonha e Mucuri, UFVJM}{}{}
+
+
+\section{Experiência Profissional}
+\cventry{Agosto 2023 --Dezembro 2023}{Monitora de Lógica de Programação}{UFVJM}{Diamantina - MG}{}{
+    Auxiliei os estudantes na compreensão de conceitos de lógica de programação, oferecendo suporte em atividades práticas, resolução de exercícios e esclarecimento de dúvidas. Trabalhei em colaboração com a professora para melhorar o desempenho dos alunos nas disciplinas.
+}
+\cventry{2020 -- 2023}{Vendedora}{Armarinho Minas Novas}{Diamantina - MG}{}{
+    Atuei no atendimento e auxílio ao cliente na escolha de produtos, o que me permitiu evoluir em habilidades de comunicação. Também fui responsável pelo controle de estoque, reposição de mercadorias e organização geral da loja.
+}
+
+
+\section{Habilidades Técnicas}
+\begin{tabular}{@{}ll} % Duas colunas, alinhadas à esquerda
+    \hspace{2.4cm} \textbf{Linguagens de Programação:} & Python, SQL, C++, Java \\
+    \hspace{2.4cm} \textbf{Ferramentas de BI/Análise:} & Power BI, Excel, Rcmdr \\
+    \hspace{2.4cm} \textbf{Desenvolvimento Web:}       & HTML, CSS, Wordpress \\
+    \hspace{2.4cm} \textbf{Produtividade:}             & Word, PowerPoint \\
+    \hspace{2.4cm} \textbf{Metodologias Ágeis:}        & Scrum, Kanban \\
+    \hspace{2.4cm} \textbf{Versionamento de Código:}   & Git, GitHub \\
+    
+\end{tabular}
+
+
+\section{Cursos e Certificações}
+\cventry{Udemy}{Curso Completo de Power BI}{7h30min}{}{}{
+    \begin{itemize}
+    \item Aprendi a criar dashboards, tratar dados com Power Query e usar fórmulas DAX para análise.
+    \end{itemize}
+}
+\cventry{Udemy}{Do Básico ao Avançado – O Curso Completo de Microsoft Excel}{11h30min}{}{}{
+    \begin{itemize}
+    \item Aprofundei conhecimentos em fórmulas, funções avançadas, tabelas dinâmicas e construção de relatórios automatizados.
+    \item Pratiquei modelagem de dados e organização de planilhas voltadas para uso profissional.
+    \end{itemize}
+}
+\cventry{Udemy}{Aprendendo Programação Básica e Avançada com Linguagem C++}{20h23min}{}{}{
+    \begin{itemize}
+    \item Aprendi conceitos fundamentais e avançados de programação estruturada e orientada a objetos em C++.
+    \item Resolvi exercícios que reforçam lógica de programação, uso de ponteiros, vetores, classes, herança e boas práticas de codificação.
+    \end{itemize}
+}
+\cventry{Instituto Educacional Santa Cruz (IESC)}{Curso Profissionalizante Gestão Empresarial}{1 ano e 2 meses}{}{}{
+    \begin{itemize}
+    \item Estudei fundamentos de administração, contabilidade, marketing, recursos humanos e logística.
+    \item Compreendi o funcionamento geral de empresas e sistemas de gestão, aplicando conceitos em estudos de caso e simulações práticas.
+    \end{itemize}
+}
+\cventry{FACET - UFVJM}{Guilda WebDev da Liga Acadêmica}{26 horas}{}{}{
+    \begin{itemize}
+    \item Participei de cursos para iniciantes sobre desenvolvimento web com HTML, CSS e Wordpress.
+    \end{itemize}
+}
+\cventry{FACET - UFVJM}{Guilda de Aprendizagem e Desenvolvimento em Jogos Eletrônicos da Liga Acadêmica}{24 horas}{}{}{
+    \begin{itemize}
+    \item Participei de cursos para iniciantes sobre desenvolvimento de jogos e conceitos básicos da área.
+    \end{itemize}
+}
+
+
+\section{Atividades Extracurriculares e Eventos}
+\cventry{Abril 2025 –atual}{Projeto de Extensão — Blockchain UFVJM e ICP Brasil}{}{}{}{
+    \begin{itemize}
+    \item Participo de cursos introdutórios sobre tecnologias blockchain com foco em aplicações práticas ligadas à ICP Brasil.
+    \end{itemize}
+}
+\cventry{Janeiro 2024 – Dezembro 2024}{Liga Acadêmica — Guildas GameDev e WebDev}{}{}{}{
+    \begin{itemize}
+    \item Participei de cursos e atividades práticas voltadas ao desenvolvimento de jogos digitais e aplicações web.
+    \end{itemize}
+}
+\cventry{Outubro 2024 –Novembro 2024}{Workshop: Matemática e Estatística}{Pró-reitoria de Extensão e Cultura da UFVJM}{}{}{
+    \begin{itemize}
+    \item Participei de evento com duração de 10 horas promovido pela Pró-reitoria de Extensão e Cultura da UFVJM, abordando temas de probabilidade, análise de dados e raciocínio lógico.
+    \end{itemize}
+}
+
+
+
+
+\end{document}
